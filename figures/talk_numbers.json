@@ -1,0 +1,64 @@
+{
+  "scenarios": {
+    "S1_RTK_calm": {
+      "label": "RTK GNSS",
+      "missions": 1000,
+      "samples_possible": 8000,
+      "samples_collected": 8000,
+      "missions_timed_out_600s": 0,
+      "miss_median_m": 0.0281,
+      "miss_p95_m": 0.0602,
+      "path_error_mean_m_median_run": 0.661
+    },
+    "S2_droneGNSS_calm": {
+      "label": "Standard drone GNSS",
+      "missions": 1000,
+      "samples_possible": 8000,
+      "samples_collected": 8000,
+      "missions_timed_out_600s": 0,
+      "miss_median_m": 0.8423,
+      "miss_p95_m": 1.7803,
+      "path_error_mean_m_median_run": 1.089
+    },
+    "S3_handheldGPSopen_calm": {
+      "label": "Handheld-grade GPS, open sky",
+      "missions": 1000,
+      "samples_possible": 8000,
+      "samples_collected": 8000,
+      "missions_timed_out_600s": 0,
+      "miss_median_m": 3.2839,
+      "miss_p95_m": 7.0163,
+      "path_error_mean_m_median_run": 2.551
+    },
+    "S4_handheldGPScanopy_calm": {
+      "label": "Handheld-grade GPS, under canopy",
+      "missions": 1000,
+      "samples_possible": 8000,
+      "samples_collected": 3323,
+      "missions_timed_out_600s": 1000,
+      "miss_median_m": 16.7563,
+      "miss_p95_m": 34.5897,
+      "path_error_mean_m_median_run": 9.455
+    },
+    "S5_RTK_RoatanWind": {
+      "label": "RTK GNSS, Roat\u00e1n wind",
+      "missions": 1000,
+      "samples_possible": 7808,
+      "samples_collected": 2356,
+      "missions_timed_out_600s": 873,
+      "miss_median_m": 0.0295,
+      "miss_p95_m": 0.0626,
+      "path_error_mean_m_median_run": 2.473
+    }
+  },
+  "prospera_flights": {
+    "n": 5000,
+    "round_trip_min_median": 3.8,
+    "round_trip_min_p5_p95": [
+      2.77,
+      5.16
+    ],
+    "wind_ms_median_modelled": 5.28,
+    "share_within_12ms_rating": 0.97
+  }
+}

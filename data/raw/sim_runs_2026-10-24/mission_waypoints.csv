@@ -1,0 +1,17 @@
+wp_idx,type,name,east_m,north_m,alt_m
+0,Pass,Turn 1,0.000,0.000,55
+1,Sample,Sample 2,0.000,40.000,55
+2,Sample,Sample 3,0.000,80.000,55
+3,Pass,Turn 4,0.000,120.000,55
+4,Pass,Turn 5,30.000,120.000,55
+5,Sample,Sample 6,30.000,80.000,55
+6,Sample,Sample 7,30.000,40.000,55
+7,Pass,Turn 8,30.000,0.000,55
+8,Pass,Turn 9,60.000,0.000,55
+9,Sample,Sample 10,60.000,40.000,55
+10,Sample,Sample 11,60.000,80.000,55
+11,Pass,Turn 12,60.000,120.000,55
+12,Pass,Turn 13,90.000,120.000,55
+13,Sample,Sample 14,90.000,80.000,55
+14,Sample,Sample 15,90.000,40.000,55
+15,Pass,Turn 16,90.000,0.000,55

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "5,000 Flights to Answer One Question: drone sampling simulation at Próspera, Roatán"
+type: software
+authors:
+  - family-names: Talwadiya
+    given-names: Rohan
+    affiliation: LabGPT
+  - family-names: Chen
+    given-names: Alice
+    affiliation: LabGPT
+repository-code: "https://github.com/LabGPT-science/5000-flights-drone-sampling"
+license: MIT
+date-released: 2026-11-05
+keywords:
+  - drone sampling
+  - environmental monitoring
+  - GNSS
+  - RTK
+  - reproducibility
+  - simulation

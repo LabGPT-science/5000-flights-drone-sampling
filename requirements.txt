@@ -1,0 +1,4 @@
+# Tested with Python 3.10.12
+numpy==2.2.6
+matplotlib==3.10.9
+pillow==12.3.0

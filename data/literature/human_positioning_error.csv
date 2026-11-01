@@ -1,0 +1,5 @@
+label,source,low_m,high_m,kind,note
+"Handheld GPS, open sky",USGS,1,5,range,Typical handheld GPS horizontal accuracy in open sky
+"Handheld GPS, under canopy",USGS,20,30,range,Typical handheld GPS horizontal accuracy under forest canopy
+"Plot relocation, mean error",Japan National Forest Inventory,15,15,mean,Mean error relocating permanent inventory plots
+"Slovenian permanent plots",University of Ljubljana,20,,lower_bound,60% of 326 permanent plots were more than 20 m from their recorded position

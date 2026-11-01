@@ -1,0 +1,164 @@
+{
+  "config": {
+    "seed": 51,
+    "n_flights": 5000,
+    "site_polygon_en_m": [
+      [
+        -779.8920235134933,
+        -214.6853204052541
+      ],
+      [
+        -576.9064283533206,
+        -380.679124841909
+      ],
+      [
+        502.1222617140837,
+        -270.01658855067467
+      ],
+      [
+        502.1222617140837,
+        172.63355661347637
+      ],
+      [
+        352.5539284371282,
+        692.7474771820025
+      ]
+    ],
+    "base": "centroid",
+    "drone": {
+      "name": "DJI Matrice 350 RTK (reference platform)",
+      "mass_with_batteries_kg": 6.47,
+      "mtow_kg": 9.2,
+      "battery_Wh": 526.4,
+      "rated_endurance_min": 55,
+      "rated_speed_ms": 8.0,
+      "max_wind_ms": 12.0,
+      "ascent_ms": 6.0,
+      "descent_ms": 5.0,
+      "hover_acc_rtk_m": 0.1,
+      "hover_acc_gnss_m": 1.5
+    },
+    "cruise_airspeed_ms": 10.0,
+    "wind_margin_ms": 4.0,
+    "max_speed_ms": 23.0,
+    "cruise_alt_m": 30.0,
+    "on_station_s": 120.0,
+    "reserve_frac": 0.2,
+    "power_mass_exponent": 1.5,
+    "wind_mean_kt": 11.0,
+    "wind_gust_kt": 26.0,
+    "wind_dir_deg": 67.5,
+    "wind_weibull_k": 2.0,
+    "wind_dir_spread_deg": 30.0,
+    "payloads": {
+      "water_1L": {
+        "out_kg": 0.8,
+        "back_kg": 1.8
+      },
+      "eDNA_2L": {
+        "out_kg": 0.8,
+        "back_kg": 2.8
+      },
+      "soil_200g_tool0.5": {
+        "out_kg": 0.5,
+        "back_kg": 0.7
+      },
+      "soil_200g_tool1.0": {
+        "out_kg": 1.0,
+        "back_kg": 1.2
+      }
+    },
+    "human_gps_open_m": [
+      1,
+      5
+    ],
+    "human_gps_canopy_m": [
+      20,
+      30
+    ]
+  },
+  "summary": {
+    "site_area_acres": 184.6,
+    "site_area_m2": 746891,
+    "base_choice": "centroid",
+    "one_way_m": {
+      "mean": 360,
+      "p95": 648,
+      "max": 802
+    },
+    "wind_ms": {
+      "mean": 5.6,
+      "p95": 10.93
+    },
+    "pct_flights_go_sustained_rule": 97.0,
+    "pct_flights_go_gust_rule": 47.0,
+    "power_W_empty": 574,
+    "usable_Wh_after_reserve": 421.1,
+    "payloads": {
+      "water_1L": {
+        "within_MTOW": true,
+        "payload_out_kg": 0.8,
+        "payload_back_kg": 1.8,
+        "flights_flown_of_5000": 4851,
+        "time_min_mean": 3.86,
+        "time_min_p95": 5.16,
+        "batt_pct_mean": 9.7,
+        "batt_pct_p95": 12.9,
+        "sorties_per_battery_pair_mean": 8.2,
+        "total_hours_5000": 311.9,
+        "total_km_flown": 3491.9
+      },
+      "eDNA_2L": {
+        "within_MTOW": false,
+        "payload_out_kg": 0.8,
+        "payload_back_kg": 2.8,
+        "flights_flown_of_5000": 4851,
+        "time_min_mean": 3.86,
+        "time_min_p95": 5.16,
+        "batt_pct_mean": 11.1,
+        "batt_pct_p95": 14.8,
+        "sorties_per_battery_pair_mean": 7.2,
+        "total_hours_5000": 311.9,
+        "total_km_flown": 3491.9
+      },
+      "soil_200g_tool0.5": {
+        "within_MTOW": true,
+        "payload_out_kg": 0.5,
+        "payload_back_kg": 0.7,
+        "flights_flown_of_5000": 4851,
+        "time_min_mean": 3.86,
+        "time_min_p95": 5.16,
+        "batt_pct_mean": 8.1,
+        "batt_pct_p95": 10.8,
+        "sorties_per_battery_pair_mean": 9.9,
+        "total_hours_5000": 311.9,
+        "total_km_flown": 3491.9
+      },
+      "soil_200g_tool1.0": {
+        "within_MTOW": true,
+        "payload_out_kg": 1.0,
+        "payload_back_kg": 1.2,
+        "flights_flown_of_5000": 4851,
+        "time_min_mean": 3.86,
+        "time_min_p95": 5.16,
+        "batt_pct_mean": 9.0,
+        "batt_pct_p95": 12.0,
+        "sorties_per_battery_pair_mean": 8.9,
+        "total_hours_5000": 311.9,
+        "total_km_flown": 3491.9
+      }
+    },
+    "sample_offset_m": {
+      "drone_RTK_p95": 0.098,
+      "drone_GNSS_only_p95": 1.43,
+      "human_handheld_open_range": [
+        1,
+        5
+      ],
+      "human_handheld_canopy_range": [
+        20,
+        30
+      ]
+    }
+  }
+}
